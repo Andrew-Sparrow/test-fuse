@@ -1,0 +1,9 @@
+@import 'libs/normalize.css';
+@import 'config';
+@import 'menu';
+
+* {
+  box-sizing: border-box;
+}
+
+@import 'mobile';
