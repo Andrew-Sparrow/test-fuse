@@ -1,0 +1,14 @@
+.header {
+  color: $header-color;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+    font-size: 36px;
+  }
+}
