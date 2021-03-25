@@ -11,23 +11,29 @@
   </head>
   <body class="bg-home">
     <div class="container">
-      <h1 class="header">Our Latest Developments</h1>
-      <label for="filter">Filter</label>
-      <input class="filter" id="filter" name="filter" type="text">
+      <header class="header">
+        <h1 class="header__title">Our Latest Developments</h1>
+        <label for="header__label">Filter</label>
+        <input class="header__filter" id="filter" name="filter" type="text">
+      </header>
       <main class="main">
-        <a class="card" href="#">
-          <img class="card__house-picture" src="" alt="picture of house" aria-label="picture of house">
-          <div class="card__description">
-            <h3 class="card__title">Brunlees Court</h3>
-            <p class="card__address">
-              19-23 Cambridge Road, Southport
-            </p>
-            <p class="card__properties">
-              New Properties for Sale from <span class="card__properties_price">£214,999</span>
-            </p>
-            <p class="card__shared">Shared Ownership Available</p>
-          </div>
-        </a>
+        <ul class="cards">
+          <li class="card">
+            <a class="card__link" href="#">
+              <img class="card__house-picture" src="" alt="picture of house" aria-label="picture of house">
+              <div class="card__description">
+                <h3 class="card__title">Brunlees Court</h3>
+                <p class="card__address">
+                  19-23 Cambridge Road, Southport
+                </p>
+                <p class="card__properties">
+                  New Properties for Sale from <span class="card__properties_price">£214,999</span>
+                </p>
+                <p class="card__shared">Shared Ownership Available</p>
+              </div>
+            </a>
+          </li>
+        </ul>
       </main>
     </div>
     <script src="js/main.js"></script>

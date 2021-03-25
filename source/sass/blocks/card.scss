@@ -1,0 +1,13 @@
+.card {
+  width: $mobile-container-width;
+  background: #F8F8F8;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.card__link {
+  display: block;
+  cursor: pointer;
+  height: fit-content;
+}

@@ -1,4 +1,10 @@
 .header {
+  display: block;
+  margin: auto;
+  width: $mobile-container-width;
+}
+
+.header__title {
   color: $header-color;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -8,7 +14,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .header {
+  .header__title {
     font-size: 36px;
   }
 }
