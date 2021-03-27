@@ -2,3 +2,11 @@
   list-style: none;
   padding-left: 0;
 }
+
+@media (min-width: $desktop-width) {
+  .cards {
+    width: 1181px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
