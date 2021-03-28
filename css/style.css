@@ -52,9 +52,13 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif; }
 
+.main {
+  padding-bottom: 77px; }
+
 .cards {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  padding-bottom: 60px; }
 
 @media (min-width: 321px) {
   .cards {
@@ -133,3 +137,28 @@
     margin-bottom: 38px; }
   .card__house-picture {
     width: 377px; } }
+
+.seemore {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  width: 150px;
+  border: 1px solid #D8D8D8;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #363636;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 30px; }
+
+.seemore::after {
+  position: absolute;
+  display: block;
+  content: url("../img/chevron.svg");
+  width: 55px;
+  height: 53px;
+  top: 13px;
+  right: -19px;
+  z-index: 700; }
