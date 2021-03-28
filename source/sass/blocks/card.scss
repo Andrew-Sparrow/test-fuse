@@ -40,5 +40,11 @@
 @media (min-width: $desktop-width) {
   .card {
     width: $desktop-card-width;
+    margin: 0;
+    margin-bottom: 38px;
+  }
+
+  .card__house-picture {
+    width: 377px;
   }
 }
